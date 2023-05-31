@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1685519233,
-        "narHash": "sha256-mIqayrL4g7jc76PY8yOglSvkiFTYD6vvy3cLuK5zbVk=",
+        "lastModified": 1685523324,
+        "narHash": "sha256-zmuvz5eB2U1wbIl3aedFCanBWlbPk9SuTiNIjLKyC5k=",
         "owner": "ehllie",
         "repo": "flake1",
-        "rev": "e0b20ed45595545b29afe5ca586430baea7e8aff",
+        "rev": "ae32bbcb045e14a7b1b1a47f66792667def2a591",
         "type": "github"
       },
       "original": {
@@ -23,11 +23,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1685519423,
-        "narHash": "sha256-gvamShIt3I2djF3IUSPLm/YjwRk/3IwOaiMzJzvux/I=",
+        "lastModified": 1685523372,
+        "narHash": "sha256-ZhwUBXCVrlUOYBxLwxlzClR2fKsa4kjU81VK2eOq6yY=",
         "owner": "ehllie",
         "repo": "flake2",
-        "rev": "fe617c986b12c592ef0c4052ca0f449c3f310b1f",
+        "rev": "4a6fa8b314dd28b6eed026f4fe7ea5f901e7a52f",
         "type": "github"
       },
       "original": {
