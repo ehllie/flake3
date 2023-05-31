@@ -1,0 +1,80 @@
+{
+  "nodes": {
+    "flake1": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1685519233,
+        "narHash": "sha256-mIqayrL4g7jc76PY8yOglSvkiFTYD6vvy3cLuK5zbVk=",
+        "owner": "ehllie",
+        "repo": "flake1",
+        "rev": "e0b20ed45595545b29afe5ca586430baea7e8aff",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ehllie",
+        "repo": "flake1",
+        "type": "github"
+      }
+    },
+    "flake2": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1685519423,
+        "narHash": "sha256-gvamShIt3I2djF3IUSPLm/YjwRk/3IwOaiMzJzvux/I=",
+        "owner": "ehllie",
+        "repo": "flake2",
+        "rev": "fe617c986b12c592ef0c4052ca0f449c3f310b1f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ehllie",
+        "repo": "flake2",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1685383865,
+        "narHash": "sha256-3uQytfnotO6QJv3r04ajSXbEFMII0dUtw0uqYlZ4dbk=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5e871d8aa6f57cc8e0dc087d1c5013f6e212b4ce",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1685399834,
+        "narHash": "sha256-Lt7//5snriXSdJo5hlVcDkpERL1piiih0UXIz1RUcC4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "58c85835512b0db938600b6fe13cc3e3dc4b364e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake1": "flake1",
+        "flake2": "flake2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
